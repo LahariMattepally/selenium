@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.Using_Dependsonmethod_Flag"/>
+      <class name="TestNG.Using_Priority_Flag"/>
+      <class name="TestNG.Using_Enabled_Flag"/>
+      <class name="TestNG.Using_InvocationCount_Flag"/>
+      <class name="TestNG.Using_Threadpullsize_Flag"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
